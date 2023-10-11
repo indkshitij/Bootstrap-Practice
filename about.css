@@ -1,0 +1,23 @@
+.image img{
+    min-width:100%;
+    max-height: 350px;
+}
+.img .img-fluid {  
+    height: 202px;
+    width: 170px;
+}
+@media (max-width: 576px) { 
+    .about-btn{
+        margin-left: 30%;
+        transform: translateX(-50%);
+    }
+    .content{
+        text-align: center;
+
+    }
+    .image img {
+        min-width: 88vw;
+        max-height: 350px;
+    }
+    
+}
